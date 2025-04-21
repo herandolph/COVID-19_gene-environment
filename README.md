@@ -3,7 +3,7 @@ code necessary to reproduce the main analyses published in:
 
 Widespread gene-environment interactions shape the immune response to SARS-CoV-2 infection in hospitalized COVID-19 patients (2025)
 
-HE Randolph, R Aguirre-Gamboa, E Brunet-Ratnasingham, T Nakanishi, V Locher, E Ketter, C Brandolino, C Larochelle, A Prat, N Arbour, A Dumaine, A Finzi, M Durand, JB Richards, DE Kaufmann, and LB Barreiro
+HE Randolph, R Aguirre-Gamboa, E Brunet-Ratnasingham, T Nakanishi, Z Mu, V Locher, E Ketter, C Brandolino, C Larochelle, A Prat, N Arbour, A Dumaine, A Finzi, M Durand, YI Li, JB Richards, DE Kaufmann, and LB Barreiro
 
 # General dependencies
 R (tested in versions 4.1.0 and 4.3.1)
