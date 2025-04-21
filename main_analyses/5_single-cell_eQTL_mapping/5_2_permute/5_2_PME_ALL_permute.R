@@ -26,7 +26,7 @@ setwd(current)
 system(paste0("mkdir -p outputs/",folder,"/",type,"/",celltype,"/",out_dir,"/raw_results"))
 
 ## read in geneSNP file
-geneSNPs <- read.table(paste0("inputs/",folder,"/geneSNP_files_lfsr0.1/",geneSNP_file)) ## 2,084 gene SNPs
+geneSNPs <- read.table(paste0("inputs/",folder,"/geneSNP_files_lfsr0.1/",geneSNP_file))
 genes <- geneSNPs$V1
 snps <- geneSNPs$V2
 
