@@ -40,7 +40,7 @@ for (i in 1:length(celltypes)){
 	meta_data_i <- md
 
 	## remove outliers
-	meta_data_i <- meta_data_i[!(meta_data_i$sample_ID %in% c("HMN171238_noStim_DSO-NA","HMN171232_noStim_DSO-NA","CHUM-1_noStim_DSO-11")),]
+	meta_data_i <- meta_data_i[!(meta_data_i$sample_ID %in% c("HMN171238_noStim_DSO-NA","HMN171232_noStim_DSO-NA","P-1_noStim_DSO-11")),]
 	meta_data_i <- meta_data_i[meta_data_i[,cell_type_i] >= cell_threshold,]
 
 	## read in pseudobulk
